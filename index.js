@@ -172,7 +172,7 @@
       console.log("Iframe document accessed.");
       const monthToggleXpath =
         "/html/body/div[2]/div/div/div[2]/div[2]/div/div/div/div/table/thead/tr[1]/th[3]/button";
-      await clickMonthToggle(iframeDocument, monthToggleXpath);
+      // await clickMonthToggle(iframeDocument, monthToggleXpath);
       await clickDay(iframeDocument, day);
       await clickContinue(iframeDocument);
       await clickGolferAmount(iframeDocument, 1);
